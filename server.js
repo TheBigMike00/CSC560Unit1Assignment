@@ -30,7 +30,7 @@ var user = {
     });
  })
 
- //GET
+ //GET BY 'ID'
  app.get('/:id', function (req, res) {
     // First read existing users.
     fs.readFile( __dirname + "/" + "users.json", 'utf8', function (err, data) {
